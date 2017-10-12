@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="#9C27BD"
+        android:text="@string/take_picture"
+        android:onClick="takePicture"
+        android:drawableLeft="@drawable/ic_camera_black_36dp" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="#F44336"
+        android:layout_marginTop="10dp"
+        android:text="@string/pick_from_gallery"
+        android:onClick="pickFromGallery"
+        android:drawableLeft="@drawable/ic_wallpaper_black_36dp" />
+</LinearLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">OS Contact</string>
+    <string name="cancel">Cancel</string>
+    <string name="hyphen">—</string>
+    <string name="at_symbol">\@</string>
+    <string name="cognizant">Cognizant</string>
+    <string name="company">Company</string>
+    <string name="month">Month</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="personal_email">Personal Email</string>
+    <string name="title">Title</string>
+    <string name="orbit_shifters">Orbit Shifters</string>
+    <string name="primary_mobile_number">Primary Mobile Number</string>
+    <string name="welcome_os">Welcome! OS</string>
+    <string name="work_email">Work Email</string>
+    <string name="name">Name</string>
+    <string name="year">Year</string>
+    <string name="cognizant_com">cognizant.com</string>
+    <string name="pick_from_gallery">Pick From Gallery</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="whatsapp_mobile_number">Whatsapp Mobile Number</string>
+    <string name="use_primary_number">Use Primary Number</string>
+    <string-array name="months">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+</resources>

@@ -120,5 +120,4 @@ public class Contact {
                 ", image=" + image +
                 '}';
     }
-
 }

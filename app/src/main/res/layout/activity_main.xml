@@ -45,6 +45,7 @@
             android:orientation="vertical">
 
             <android.support.design.widget.TextInputLayout
+                android:id="@+id/name_container"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <android.support.design.widget.TextInputEditText
@@ -56,6 +57,7 @@
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
+                android:id="@+id/dob_container"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <android.support.design.widget.TextInputEditText
@@ -68,6 +70,7 @@
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
+                android:id="@+id/mobile_container"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <android.support.design.widget.TextInputEditText
@@ -85,7 +88,7 @@
                 android:text="@string/use_primary_number"/>
 
             <android.support.design.widget.TextInputLayout
-                android:id="@+id/whatsapp_mobile_cover"
+                android:id="@+id/whatsapp_mobile_container"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <android.support.design.widget.TextInputEditText
@@ -97,6 +100,7 @@
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
+                android:id="@+id/company_container"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <AutoCompleteTextView
@@ -113,6 +117,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
                 <android.support.design.widget.TextInputLayout
+                    android:id="@+id/title_container"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="3">
@@ -136,6 +141,7 @@
                         android:gravity="center_vertical"/>
                 </android.support.design.widget.TextInputLayout>
                 <android.support.design.widget.TextInputLayout
+                    android:id="@+id/month_container"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1.5">
@@ -146,6 +152,7 @@
                         android:hint="@string/month" />
                 </android.support.design.widget.TextInputLayout>
                 <android.support.design.widget.TextInputLayout
+                    android:id="@+id/year_container"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1.5">
@@ -162,10 +169,11 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
                 <android.support.design.widget.TextInputLayout
+                    android:id="@+id/work_email_container"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1">
-                    <AutoCompleteTextView
+                    <android.support.design.widget.TextInputEditText
                         android:id="@+id/work_email"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -182,7 +190,7 @@
                         android:hint=""
                         android:text="@string/at_symbol"
                         android:textStyle="bold"
-                        android:gravity="bottom"
+                        android:gravity="center_vertical"
                         android:paddingBottom="10dp"/>
                 </android.support.design.widget.TextInputLayout>
                 <android.support.design.widget.TextInputLayout
@@ -199,6 +207,7 @@
             </LinearLayout>
 
             <android.support.design.widget.TextInputLayout
+                android:id="@+id/personal_email_container"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <android.support.design.widget.TextInputEditText

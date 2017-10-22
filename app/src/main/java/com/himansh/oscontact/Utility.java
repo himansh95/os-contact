@@ -8,6 +8,8 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
+import android.util.Log;
+import android.util.Patterns;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 
@@ -53,8 +55,13 @@ public class Utility {
             return true;
         }
     }
-    public static void hideSoftKeyboard(Activity activity, View view) {
-        InputMethodManager inputMethodManager = (InputMethodManager) activity.getSystemService(Activity.INPUT_METHOD_SERVICE);
-        inputMethodManager.hideSoftInputFromWindow(view.getWindowToken(), 0);
+    public static void hideSoftKeyboard(Activity activity) {
+        String s= Patterns.EMAIL_ADDRESS.pattern();
+        Log.i("i",s);
+        View view = activity.getCurrentFocus();
+        if (view != null) {
+            ((InputMethodManager) activity.getSystemService(Context.INPUT_METHOD_SERVICE)).
+                    hideSoftInputFromWindow(view.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
+        }
     }
 }
